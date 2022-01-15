@@ -169,8 +169,46 @@ body{
 .see-more-btn span{
     margin-left: 10px;
 }
-
-
+/* Influencer Review  */
+.influencer{
+    margin-top: 80px;
+}
+.influencer-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.influencer-review{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+.review-box{
+    margin: 40px 0;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px 1px #f3f0f0;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+.review-box:hover{
+    background-color: #f3a5c1;
+    transition: 1s;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px 1px #ebe8e9;
+}
+.review-box img{
+    border-radius: 50%;
+}
+.review-box p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.review-box h2{
+    font-size: 25px;
+    font-weight: 700;
+}
 /* Footer  */
 .footer{
     background-color: #0A0826;
