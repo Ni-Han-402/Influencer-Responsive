@@ -140,14 +140,18 @@ body{
     font-weight: 400;
     margin: 5px 0;
 }
+.see-more{
+    text-align: right;
+    margin-right: 20px;
+}
 .see-more-btn{
     border: none;
-    float: right;
+    align-items: center;
     margin-top: 30px;
-    margin-right: 20px;
     border: 2px solid #E02C6D;
     border-radius: 20px;
     padding: 5px 20px;
+    display: inline-block;
 }
 .see-more-btn:hover{
     background-color: #E02C6D;
@@ -164,4 +168,51 @@ body{
 }
 .see-more-btn span{
     margin-left: 10px;
+}
+
+
+/* Footer  */
+.footer{
+    background-color: #0A0826;
+    margin-top: 30px;
+}
+.footer-content{
+
+    text-align: center;
+ 
+}
+.footer-content h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 30px;
+    
+}
+.footer-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 5px;
+}
+.social-icon{
+    text-align: center;
+}
+.icons .social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.social-icon .fab{
+    color: #E02C6D;
+    background-color: #22203B;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.social-icon li{
+    list-style: none;
+}
+.social-icon li a{
+    text-align: center;
 }
