@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Header comment */
+.header{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Navber */
+.navber{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu-ber{
+    display: flex;
+}
+.menu-ber li{
+    list-style: none;
+    margin-left: 20px;
+}
+.menu-ber a{
+    font-size: 20px;
+    font-weight: 400;
+}
+.menu-ber span{
+    font-size: 20px;
+}
+
+/* Banner */
+.banner{
+    background-image: url(images/Circle-design.svg);
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+.banner-head{
+    width: 50%;
+}
+.banner-head h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-head p{
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-head .btn{
+    background-color: #E02C6D;
+    border-style: none;
+    border-radius: 20px;
+    padding: 12px 30px;
+
+}
+.banner-head .btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.banner-head .btn span{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.banner-image{
+    width: 50%;
+}
+.banner-img{
+    margin-left: 80px;
+}
